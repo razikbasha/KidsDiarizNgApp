@@ -2,3 +2,17 @@
 // @import "themes";
 
 @import "~@nebular/theme/styles/globals";
+
+.nb-theme-default nb-list-item{
+    padding:5px !important;
+    font-size:14px !important;
+}
+.nb-theme-default nb-layout .layout .layout-container .content .columns nb-layout-column{
+    padding:10px !important;
+}
+.imagesup img{
+    width:100%;
+}
+.img-des{
+    border:1px solid #f4f4f4;padding:15px;
+}

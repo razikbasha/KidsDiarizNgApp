@@ -27,35 +27,35 @@ export class HomeComponent implements OnInit {
       children :[
         {
           title : "Nursery",
-          link : "/queation1"
+          link : "/nursery"
         },
         {
           title : "LKG",
-          link : "/queation2"
+          link : "/lkg"
         },
         {
           title : "UKG",
-          link : "/queation3"
+          link : "/ukg"
         },
         {
           title : "1st Class",
-          link : "/queation4"
+          link : "/firstclass"
         },
         {
           title : "2nd Class",
-          link : "/queation4"
+          link : "/secondclass"
         },
         {
           title : "3rd Class",
-          link : "/queation4"
+          link : "/thirdclass"
         },
         {
           title : "4th Class",
-          link : "/queation4"
+          link : "/fourthclass"
         },
         {
           title : "5th Class",
-          link : "/queation4"
+          link : "/fifthclass"
         }
        
       ]
@@ -68,34 +68,34 @@ export class HomeComponent implements OnInit {
       title:"Queation Models",
       children :[
         {
-          title : "Queation1",
-          link : "/queation1"
+          title : "QModel1",
+          link : "/qmone"
         },
         {
-          title : "Queation2",
-          link : "/queation2"
+          title : "QModel2",
+          link : "/qmtwo"
         },
         {
-          title : "Queation3",
-          link : "/queation3"
+          title : "QModel3",
+          link : "/qmthree"
         },
         {
-          title : "Queation4",
-          link : "/queation4"
+          title : "QModel4",
+          link : "/qmfour"
         }
       ]
     },
     {
-      title: 'Upload Images',
-      link:'/uploadimages'
-    },
-    {
       title: 'Images',
-      link:'/uploadimages'
+      link:'/images'
     },
     {
       title: 'Users',
       link:'/users'
+    },
+    {
+      title: 'Settings',
+      link:'/setting'
     }
   ]
 }

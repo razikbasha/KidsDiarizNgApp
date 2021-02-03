@@ -1,0 +1,124 @@
+
+
+<div class="row mr-0 ml-0 mb-2">
+    
+        <div class="col-md-8">LKG</div>
+        <div class="col-md-4 text-right"><button nbButton  status="primary">Add Subject</button></div>
+  
+</div>
+
+<div class="row mr-0 ml-0">
+    <div class="col-md-12 p-0">
+        <nb-card>
+            <nb-card-body>
+          
+              <nb-tabset>
+                <nb-tab tabTitle="Maths" badgeText="99+" badgeStatus="danger">
+                  <div class="row">
+                      <div class="col-md-3 p-1">
+                        <nb-card size="medium">
+                            <div class="row p-3">
+                                <div class="col-md-8"><h6>Topics</h6></div> 
+                                <div class="col-md-4 text-right"><button nbButton (click)="open()" status="primary">Add</button></div> 
+                            </div>
+                            <nb-list>
+                              <nb-list-item>
+                                Numbers
+                              </nb-list-item>
+                              <nb-list-item>
+                                Shapes
+                              </nb-list-item>
+                              <nb-list-item>
+                                Count to 10
+                              </nb-list-item>
+                              <nb-list-item>
+                                Comparing
+                              </nb-list-item>
+                            </nb-list>
+                          </nb-card>
+                      </div>
+                      <div class="col-md-4 p-1">
+                        <nb-card size="medium">
+                            <div class="row p-3">
+                                <div class="col-md-8"><h6>Questions List</h6></div> 
+                                <div class="col-md-4 text-right"></div> 
+                            </div>
+                            <nb-list>
+                              <nb-list-item>
+                                Which shape is a square?
+                              </nb-list-item>
+                              <nb-list-item>
+                                Which shape is a triangle?
+                              </nb-list-item>
+                              <nb-list-item>
+                                Which shape is a rectangle?
+                              </nb-list-item>
+                              <nb-list-item>
+                                How many spiders are there?
+                              </nb-list-item>
+                            </nb-list>
+                          </nb-card>
+                      </div>
+                      <div class="col-md-5 p-1">
+                        <nb-card>
+                            <div class="row p-3">
+                              <div class="col-md-6"><h6>Add Questions</h6> </div> 
+                              <div class="col-md-6 text-right"><button nbButton  status="primary">Select Question Model</button></div> 
+                            </div>
+                            <div class="col-md-12">
+                                <form>
+                                    <h6>QModel 1</h6>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">Topic</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                          <option>Numbers</option>
+                                          <option>Shapes</option>
+                                          <option>Count to 0</option>
+                                          <option>Comparing</option>
+                                          <option>5</option>
+                                        </select>
+                                      </div>
+                                    <div class="form-group">
+                                      <label for="exampleInputEmail1">Question</label>
+                                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type Question">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group row">
+                                            <div class="col-md-10 custom-file">
+                                                <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+                                                <label class="custom-file-label" for="validatedCustomFile">Upload Image...</label>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <button nbButton  status="primary">Add</button>
+                                            </div>
+                                        </div>
+                                    </div><br>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Answer</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Answer">
+                                      </div>
+                                   <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                                </form>
+                            </div>
+                          </nb-card>
+                      </div>
+                  </div>
+                </nb-tab>
+
+
+                <nb-tab tabTitle="English" badgeText="12" badgeStatus="danger">
+                  <p>List of <strong>orders</strong>.</p>
+                </nb-tab>
+
+
+                <nb-tab tabTitle="Telugu" badgeText="new" badgeStatus="danger">
+                  <p>List of <strong>Telugu</strong>.</p>
+                </nb-tab>
+               
+              </nb-tabset>
+          
+            </nb-card-body>
+          </nb-card>
+    </div>
+</div>
+
